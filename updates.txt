@@ -1,0 +1,155 @@
+<link rel="stylesheet" href="./../wp-includes/css/topbarstyle.css">
+
+
+	 <div class="top-bar"> 
+    <div class="social-icons">
+      <a href="https://www.linkedin.com/company/leveneenergygroup/"><img src="./../wp-content/uploads/2023/04/linkedin.png" alt="LinkedIn"></a>
+	  <a href="https://x.com/leveneenergy?s=21&#038;t=lZ-O3M8lg9ESTO5F0U7EXQ"><img src="./../wp-content/uploads/2023/04/twitter.png" alt="Twitter"></a>
+	  <a href="https://instagram.com/leveneenergy?igshid=MzRlODBiNWFlZA=="><img src="./../wp-content/uploads/2023/04/instagram.png" alt="Instagram"></a>
+	  <a href="https://www.facebook.com/LeveneEnergy/?mibextid=ZbWKwL"><img src="./../wp-content/uploads/2023/04/facebook.png" alt="Facebook"></a>
+	</div>
+  </div>
+  
+  
+  			<div class="elementor-element elementor-element-7ea3f79 e-con-full e-flex e-con e-parent" data-id="7ea3f79" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;_ob_use_container_extras&quot;:&quot;no&quot;,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_glider_is_slider&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;,&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+		
+		<div class="elementor-element elementor-element-92b28e3 e-con-full e-flex e-con e-child" data-id="92b28e3" data-element_type="container" data-settings="{&quot;_ob_use_container_extras&quot;:&quot;no&quot;,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_glider_is_slider&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;,&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+				<div class="elementor-element elementor-element-d3742da ob-harakiri-inherit ob-has-background-overlay elementor-widget elementor-widget-heading" data-id="d3742da" data-element_type="widget" data-settings="{&quot;_ob_use_harakiri&quot;:&quot;yes&quot;,&quot;_ob_harakiri_writing_mode&quot;:&quot;inherit&quot;,&quot;_ob_harakiri_text_clip&quot;:&quot;none&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;,&quot;ekit_we_effect_on&quot;:&quot;none&quot;,&quot;_ob_poopart_use&quot;:&quot;yes&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">Quick Links</h3>		</div>
+				</div>
+				<div class="elementor-element elementor-element-d4ff300 elementor-icon-list--layout-traditional elementor-list-item-link-full_width ob-has-background-overlay elementor-widget elementor-widget-icon-list" data-id="d4ff300" data-element_type="widget" data-settings="{&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;,&quot;ekit_we_effect_on&quot;:&quot;none&quot;,&quot;_ob_poopart_use&quot;:&quot;yes&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;}" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+			<link rel="stylesheet" href="./../wp-content/plugins/elementor/assets/css/widget-icon-list.min.css">		<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+											<a href="./../who-we-are/index.html">
+
+											<span class="elementor-icon-list-text">About Us</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="./../component-entities/index.html">
+
+											<span class="elementor-icon-list-text">Subsidaries</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="./../contact-us/index.html">
+
+											<span class="elementor-icon-list-text">Contact Us</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="./../careers/index.html">
+
+											<span class="elementor-icon-list-text">Careers</span>
+											</a>
+									</li>
+						</ul>
+				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-a8190d8 e-con-full e-flex e-con e-child" data-id="a8190d8" data-element_type="container" data-settings="{&quot;_ob_use_container_extras&quot;:&quot;no&quot;,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_glider_is_slider&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;,&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+    <div class="elementor-element elementor-element-4e26548 ob-harakiri-inherit ob-has-background-overlay elementor-widget elementor-widget-heading" data-id="4e26548" data-element_type="widget" data-settings="{&quot;_ob_use_harakiri&quot;:&quot;yes&quot;,&quot;_ob_harakiri_writing_mode&quot;:&quot;inherit&quot;,&quot;_ob_harakiri_text_clip&quot;:&quot;none&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;,&quot;ekit_we_effect_on&quot;:&quot;none&quot;,&quot;_ob_poopart_use&quot;:&quot;yes&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;}" data-widget_type="heading.default">
+        <div class="elementor-widget-container">
+            <h5 class="elementor-heading-title elementor-size-default">Abuja</h5>
+        </div>
+    </div>
+    <div class="elementor-element elementor-element-8fe1ffc elementor-icon-list--layout-traditional elementor-list-item-link-full_width ob-has-background-overlay elementor-widget elementor-widget-icon-list" data-id="8fe1ffc" data-element_type="widget" data-settings="{&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;,&quot;ekit_we_effect_on&quot;:&quot;none&quot;,&quot;_ob_poopart_use&quot;:&quot;yes&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;}" data-widget_type="icon-list.default">
+        <div class="elementor-widget-container">
+            <ul class="elementor-icon-list-items">
+                <li class="elementor-icon-list-item">
+                    <span class="elementor-icon-list-text">9 Thaba Tseka Street,</span>
+                </li>
+                <li class="elementor-icon-list-item">
+                    <span class="elementor-icon-list-text">Abuja FCT, Nigeria</span>
+                </li>
+                <li class="elementor-icon-list-item">
+                    <span class="elementor-icon-list-text">+234 906 294 8514</span>
+                </li>
+                <li class="elementor-icon-list-item">
+                    <span class="elementor-icon-list-text">info@leveneenergy.com</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+		<div class="elementor-element elementor-element-a8190d8 e-con-full e-flex e-con e-child" data-id="a8190d8" data-element_type="container" data-settings="{&quot;_ob_use_container_extras&quot;:&quot;no&quot;,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_glider_is_slider&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;,&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+    <div class="elementor-element elementor-element-4e26548 ob-harakiri-inherit ob-has-background-overlay elementor-widget elementor-widget-heading" data-id="4e26548" data-element_type="widget" data-settings="{&quot;_ob_use_harakiri&quot;:&quot;yes&quot;,&quot;_ob_harakiri_writing_mode&quot;:&quot;inherit&quot;,&quot;_ob_harakiri_text_clip&quot;:&quot;none&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;,&quot;ekit_we_effect_on&quot;:&quot;none&quot;,&quot;_ob_poopart_use&quot;:&quot;yes&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;}" data-widget_type="heading.default">
+        <div class="elementor-widget-container">
+            <h5 class="elementor-heading-title elementor-size-default">Lagos</h5>
+        </div>
+    </div>
+    <div class="elementor-element elementor-element-8fe1ffc elementor-icon-list--layout-traditional elementor-list-item-link-full_width ob-has-background-overlay elementor-widget elementor-widget-icon-list" data-id="8fe1ffc" data-element_type="widget" data-settings="{&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;,&quot;ekit_we_effect_on&quot;:&quot;none&quot;,&quot;_ob_poopart_use&quot;:&quot;yes&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;}" data-widget_type="icon-list.default">
+        <div class="elementor-widget-container">
+            <ul class="elementor-icon-list-items">
+                <li class="elementor-icon-list-item">
+                    <span class="elementor-icon-list-text">19B Ilabere Avenue, Ikoyi,</span>
+                </li>
+                <li class="elementor-icon-list-item">
+                    <span class="elementor-icon-list-text">Lagos State, Nigeria</span>
+                </li>
+                <li class="elementor-icon-list-item">
+                    <span class="elementor-icon-list-text">+234 906 294 8514</span>
+                </li>
+                <li class="elementor-icon-list-item">
+                    <span class="elementor-icon-list-text">info@leveneenergy.com</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+		<div class="elementor-element elementor-element-a8190d8 e-con-full e-flex e-con e-child" data-id="a8190d8" data-element_type="container" data-settings="{&quot;_ob_use_container_extras&quot;:&quot;no&quot;,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_glider_is_slider&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;,&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+    <div class="elementor-element elementor-element-4e26548 ob-harakiri-inherit ob-has-background-overlay elementor-widget elementor-widget-heading" data-id="4e26548" data-element_type="widget" data-settings="{&quot;_ob_use_harakiri&quot;:&quot;yes&quot;,&quot;_ob_harakiri_writing_mode&quot;:&quot;inherit&quot;,&quot;_ob_harakiri_text_clip&quot;:&quot;none&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;,&quot;ekit_we_effect_on&quot;:&quot;none&quot;,&quot;_ob_poopart_use&quot;:&quot;yes&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;}" data-widget_type="heading.default">
+        <div class="elementor-widget-container">
+            <h5 class="elementor-heading-title elementor-size-default">London</h5>
+        </div>
+    </div>
+    <div class="elementor-element elementor-element-8fe1ffc elementor-icon-list--layout-traditional elementor-list-item-link-full_width ob-has-background-overlay elementor-widget elementor-widget-icon-list" data-id="8fe1ffc" data-element_type="widget" data-settings="{&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;,&quot;ekit_we_effect_on&quot;:&quot;none&quot;,&quot;_ob_poopart_use&quot;:&quot;yes&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;}" data-widget_type="icon-list.default">
+        <div class="elementor-widget-container">
+            <ul class="elementor-icon-list-items">
+                <li class="elementor-icon-list-item">
+                    <span class="elementor-icon-list-text">5 Bolton Street,</span>
+                </li>
+                <li class="elementor-icon-list-item">
+                    <span class="elementor-icon-list-text">London, W1J 8BA,</span>
+                </li>
+                <li class="elementor-icon-list-item">
+                    <span class="elementor-icon-list-text">United Kingdom</span>
+                </li>
+                <li class="elementor-icon-list-item">
+                    <span class="elementor-icon-list-text">londonoffice@leveneenergy.com</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+				
+				<span></span>
+				<div class="elementor-element elementor-element-a8190d8 e-con-full e-flex e-con e-child" data-id="a8190d8" data-element_type="container" data-settings="{&quot;_ob_use_container_extras&quot;:&quot;no&quot;,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_glider_is_slider&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;,&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+    <div class="elementor-element elementor-element-4e26548 ob-harakiri-inherit ob-has-background-overlay elementor-widget elementor-widget-heading" data-id="4e26548" data-element_type="widget" data-settings="{&quot;_ob_use_harakiri&quot;:&quot;yes&quot;,&quot;_ob_harakiri_writing_mode&quot;:&quot;inherit&quot;,&quot;_ob_harakiri_text_clip&quot;:&quot;none&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;,&quot;ekit_we_effect_on&quot;:&quot;none&quot;,&quot;_ob_poopart_use&quot;:&quot;yes&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;}" data-widget_type="heading.default">
+        <div class="elementor-widget-container">
+            <h5 class="elementor-heading-title elementor-size-default">Dubia</h5>
+        </div>
+    </div>
+    <div class="elementor-element elementor-element-8fe1ffc elementor-icon-list--layout-traditional elementor-list-item-link-full_width ob-has-background-overlay elementor-widget elementor-widget-icon-list" data-id="8fe1ffc" data-element_type="widget" data-settings="{&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;,&quot;ekit_we_effect_on&quot;:&quot;none&quot;,&quot;_ob_poopart_use&quot;:&quot;yes&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;}" data-widget_type="icon-list.default">
+        <div class="elementor-widget-container">
+            <ul class="elementor-icon-list-items">
+                <li class="elementor-icon-list-item">
+                    <span class="elementor-icon-list-text">FDRK6890, Compass Building,</span>
+                </li>
+                <li class="elementor-icon-list-item">
+                    <span class="elementor-icon-list-text">Al Shohada Road,</span>
+                </li>
+                <li class="elementor-icon-list-item">
+                    <span class="elementor-icon-list-text">Al-Hamra Industrial Zone-FZ,</span>
+                </li>
+                <li class="elementor-icon-list-item">
+                    <span class="elementor-icon-list-text">Ras Al Khaimah, UAE</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+				</div>
+				</div>
