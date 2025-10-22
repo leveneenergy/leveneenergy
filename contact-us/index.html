@@ -29,6 +29,10 @@
 <meta name="twitter:description" content="info@leveneenergy.com +234 (0) 906 289 2870 19B Ilabere Avenue, Ikoyi, Lagos Levene Energy /*! elementor - v3.13.3 - 28-05-2023 */">
 <meta name="twitter:label1" content="Time to read">
 <meta name="twitter:data1" content="Less than a minute">
+<!-- Google reCAPTCHA -->
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+
 <script type="application/ld+json" class="rank-math-schema">{"@context":"https://schema.org","@graph":[{"@type":["Person","Organization"],"@id":".//#person","name":"edesign","logo":{"@type":"ImageObject","@id":".//#logo","url":".//wp-content/uploads/2023/04/Levene-Energy-Holding-Limited.png","contentUrl":".//wp-content/uploads/2023/04/Levene-Energy-Holding-Limited.png","caption":"Levene Energy Holding Limited","inLanguage":"en-US","width":"786","height":"318"},"image":{"@type":"ImageObject","@id":".//#logo","url":".//wp-content/uploads/2023/04/Levene-Energy-Holding-Limited.png","contentUrl":".//wp-content/uploads/2023/04/Levene-Energy-Holding-Limited.png","caption":"Levene Energy Holding Limited","inLanguage":"en-US","width":"786","height":"318"}},{"@type":"WebSite","@id":".//#website","url":"./","name":"Levene Energy Holding Limited","publisher":{"@id":".//#person"},"inLanguage":"en-US"},{"@type":"WebPage","@id":".//contact-us/#webpage","url":".//contact-us/","name":"Contact Us - Levene Energy","datePublished":"2023-04-21T19:01:56+00:00","dateModified":"2023-05-29T15:28:16+00:00","isPartOf":{"@id":".//#website"},"inLanguage":"en-US"},{"@type":"Person","@id":".//author/edesign/","name":"IT Helpdesk","url":".//author/edesign/","image":{"@type":"ImageObject","@id":"https://secure.gravatar.com/avatar/a814090ddd7441ab55cd8957431a201c?s=96&d=mm&r=g","url":"https://secure.gravatar.com/avatar/a814090ddd7441ab55cd8957431a201c?s=96&d=mm&r=g","caption":"IT Helpdesk","inLanguage":"en-US"},"sameAs":["./"]},{"@type":"Article","headline":"Contact Us - Levene Energy","datePublished":"2023-04-21T19:01:56+00:00","dateModified":"2023-05-29T15:28:16+00:00","author":{"@id":".//author/edesign/","name":"IT Helpdesk"},"publisher":{"@id":".//#person"},"description":"info@leveneenergy.com +234 (0) 906 289 2870 19B Ilabere Avenue, Ikoyi, Lagos Levene Energy /*! elementor - v3.13.3 - 28-05-2023 */","name":"Contact Us - Levene Energy","@id":".//contact-us/#richSnippet","isPartOf":{"@id":".//contact-us/#webpage"},"inLanguage":"en-US","mainEntityOfPage":{"@id":".//contact-us/#webpage"}}]}</script>
 <!-- /Rank Math WordPress SEO plugin -->
 
@@ -526,6 +530,9 @@ function showLocation(city) {
               <label class="form-label">Your Message</label>
               <textarea class="form-control" rows="5" id="message" required></textarea>
               <div class="invalid-feedback">Please enter your message.</div>
+              
+              <div class="g-recaptcha mb-3" data-sitekey="6LcFZfMrAAAAAN83GfWDGh3yVZPqqIVrN3Gkup97"></div>
+
             </div>
             <button type="submit" class="btn btn-solar w-100 ">Send Message</button>
           </form>
@@ -1001,91 +1008,118 @@ wp.i18n.setLocaleData( { 'text directionltr': [ 'ltr' ] } );
 
 
 
-
- 
-<!-- Add EmailJS SDK -->
+<!-- EmailJS SDK -->
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
 
+<!-- Google reCAPTCHA v2 -->
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
+<!-- Bootstrap JS + AOS -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
 <script>
   AOS.init();
 
-  // Initialize EmailJS with your public key
-  (function() {
+ 
+  (function () {
     emailjs.init({
       publicKey: "jkvw2eb_Ngzf5kamN"
     });
   })();
 
-  // Function to show a toast notification
+  //  Toast 
   function showToast(message, type = 'success') {
     const toastContainer = document.querySelector('.toast-container');
-    
-    // Create a new toast element
+    if (!toastContainer) return;
+
     const toastDiv = document.createElement('div');
     toastDiv.className = `toast align-items-center text-white bg-${type} border-0`;
     toastDiv.setAttribute('role', 'alert');
     toastDiv.setAttribute('aria-live', 'assertive');
     toastDiv.setAttribute('aria-atomic', 'true');
-    
-    // Toast content
+
     toastDiv.innerHTML = `
       <div class="d-flex">
-        <div class="toast-body">
-          ${message}
-        </div>
-        <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+        <div class="toast-body">${message}</div>
+        <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast"></button>
       </div>
     `;
-    
-    // Append toast to container
+
     toastContainer.appendChild(toastDiv);
-    
-    // Initialize and show the toast
-    const toast = new bootstrap.Toast(toastDiv, {
-      autohide: true,
-      delay: 1000 
-    });
+
+    const toast = new bootstrap.Toast(toastDiv, { autohide: true, delay: 2000 });
     toast.show();
-    
-    // Remove the toast from DOM after it hides
-    toastDiv.addEventListener('hidden.bs.toast', () => {
-      toastDiv.remove();
-    });
+
+    toastDiv.addEventListener('hidden.bs.toast', () => toastDiv.remove());
   }
 
-  // Contact Form Validation and EmailJS
+  //  Form Handling
   const form = document.getElementById('contactForm');
-  const alertDiv = document.getElementById('alertMessage');
 
   form.addEventListener('submit', function (e) {
     e.preventDefault();
+
+    //  validation
     if (!form.checkValidity()) {
       form.classList.add('was-validated');
-    } else {
-      const formData = {
-        name: document.getElementById('name').value,
-        email: document.getElementById('email').value,
-        phone: document.getElementById('phone').value,
-        message: document.getElementById('message').value
-      };
-
-      emailjs.send('service_o232uzj', 'template_i2gbink', formData)
-        .then((response) => {
-          // Show success toast
-          showToast('Thank you! Your message has been sent.', 'success');
-          form.reset();
-          form.classList.remove('was-validated');
-        }, (error) => {
-          // Show error toast
-          showToast('Something went wrong. Please try again later.', 'danger');
-        });
+      return;
     }
-  });
 
+    //  reCAPTCHA
+    const recaptchaResponse = grecaptcha.getResponse();
+    if (!recaptchaResponse) {
+      showToast('Please verify that you are not a robot.', 'danger');
+      return;
+    }
+
+    //  (3 minutes)
+    const lastSubmitTime = localStorage.getItem('lastSubmitTime');
+    const now = Date.now();
+    const cooldown = 3 * 60 * 1000; 
+
+    if (lastSubmitTime && now - lastSubmitTime < cooldown) {
+      const secondsLeft = Math.ceil((cooldown - (now - lastSubmitTime)) / 1000);
+      const minutesLeft = Math.floor(secondsLeft / 60);
+      const secs = secondsLeft % 60;
+      showToast(`Please wait ${minutesLeft}m ${secs}s before sending another message.`, 'warning');
+      return;
+    }
+
+   
+    const submitBtn = form.querySelector('button[type="submit"]');
+    submitBtn.disabled = true;
+    submitBtn.innerText = 'Sending...';
+
+    
+    const formData = {
+      name: document.getElementById('name').value.trim(),
+      email: document.getElementById('email').value.trim(),
+      phone: document.getElementById('phone').value.trim(),
+      message: document.getElementById('message').value.trim()
+    };
+
+    
+    emailjs.send('service_o232uzj', 'template_i2gbink', formData)
+      .then(() => {
+        showToast('✅ Thank you! Your message has been sent.', 'success');
+        form.reset();
+        form.classList.remove('was-validated');
+        grecaptcha.reset();
+
+        // Save submission timestamp
+        localStorage.setItem('lastSubmitTime', Date.now());
+      })
+      .catch(() => {
+        showToast('❌ Something went wrong. Please try again later.', 'danger');
+      })
+      .finally(() => {
+        submitBtn.disabled = false;
+        submitBtn.innerText = 'Send Message';
+      });
+  });
 </script>
+
 </body>
 <!-- Page cached by LiteSpeed Cache 6.2.0.1 on 2024-05-01 21:45:14 -->
 </html>
