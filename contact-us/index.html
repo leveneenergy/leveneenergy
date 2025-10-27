@@ -580,7 +580,7 @@ function showLocation(city) {
                       data-sitekey="6LcFZfMrAAAAAN83GfWDGh3yVZPqqIVrN3Gkup97"
                       data-callback="onRecaptchaSuccess"
                       data-expired-callback="onRecaptchaExpired"
-                      style="margin-bottom: 20px;">
+                      style="margin-bottom: 20px; "></div>>
                     </div>
 
                     <input type="submit" name="subscribe" id="subscribe-btn" class="button btn btn-primary" value="SUBSCRIBE" disabled />
@@ -647,12 +647,17 @@ function showLocation(city) {
 
 <!-- CSS to match your website's design -->
 <style>
+ .g-recaptcha {
+    transform: scale(0.85);
+    transform-origin: left top;
+    margin-top: 5px;
+}
  .location-links {
   display: flex;
   gap: 10px;
 }
 .location-links button {
-	color: black;
+	color: rgb(51, 45, 45);
   border: 1px solid #007bff;
   border-radius: 5px;
   padding: 5px 16px;
@@ -665,25 +670,7 @@ function showLocation(city) {
   background: #0056b3;
   color: #fff;
 }
-.contact-info, .contact-form{
-  background-color: #ffffff;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
-  transition: transform 0.3s ease;
-}
 
-.contact-info, .contact-form, h1{
- color: navy;
-}
-
-.contact-info, .contact-form {
-  background-color: #ffffff;
-  padding: 30px;
-  border-radius: 10px;
-  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
-  transition: transform 0.3s ease;
-}
 .btn-solar {
   background-color: yellowgreen !important; 
   color: #fff;
@@ -712,47 +699,6 @@ function showLocation(city) {
 }
 
 
-
-.contact-info, .contact-form {
-  background-color: #fff;
-  padding: 30px 24px;
-  border-radius: 10px;
-  box-shadow: 0 5px 20px rgba(0,0,0,0.08);
-  color: navy;
-  margin-bottom: 0;
-  flex: 1 1 auto;
-}
-
-.contact-form h4,
-.contact-info h4,
-.container h1 {
-  color: navy;
-  font-weight: 700;
-  margin-bottom: 24px;
-}
-
-.contact-form label {
-  font-weight: 500;
-  color: #222;
-}
-
-.contact-form input,
-.contact-form textarea {
-  background: #F5F7F8;
-  border-radius: 8px;
-  border: 1px solid #e5e7eb;
-  font-size: 1rem;
-  color: #222;
-  transition: border 0.2s;
-}
-
-.contact-form input:focus,
-.contact-form textarea:focus {
-  background: #fff;
-  border-color: #0FCC7C;
-  outline: none;
-}
-
 .btn-solar {
   background-color: yellowgreen !important;
   color: #fff !important;
@@ -779,9 +725,7 @@ function showLocation(city) {
  color: white;
  border: none;
   padding: 10px 20px;
-  
-
-
+  margin-top: -30px;
 }
 .ratio {
   border-radius: 10px;
