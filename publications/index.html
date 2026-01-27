@@ -76,6 +76,9 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
   margin: 0;
   padding: 0;
 }
+.elementor-tab-content:not([hidden]) {
+  display: block !important;
+}
 	
 @media (max-width: 900px) {
   .elementor-tab-content ol {
@@ -1093,6 +1096,38 @@ wp.i18n.setLocaleData( { 'text directionltr': [ 'ltr' ] } );
 
 <script>
   document.addEventListener('DOMContentLoaded', () => {
+    // Handle tabs functionality
+    const tabTitles = document.querySelectorAll('.elementor-tab-title');
+    tabTitles.forEach(title => {
+      title.addEventListener('click', (e) => {
+        e.preventDefault();
+        const tabId = title.getAttribute('data-tab');
+        const tabWrapper = title.closest('.elementor-tabs');
+        
+      
+        tabWrapper.querySelectorAll('.elementor-tab-title').forEach(t => {
+          t.classList.remove('elementor-active');
+          t.setAttribute('aria-selected', 'false');
+          t.setAttribute('tabindex', '-1');
+          t.setAttribute('aria-expanded', 'false');
+        });
+        tabWrapper.querySelectorAll('.elementor-tab-content').forEach(content => {
+          content.setAttribute('hidden', 'hidden');
+        });
+        
+        
+        title.classList.add('elementor-active');
+        title.setAttribute('aria-selected', 'true');
+        title.setAttribute('tabindex', '0');
+        title.setAttribute('aria-expanded', 'true');
+        const contentId = title.getAttribute('aria-controls');
+        const content = document.getElementById(contentId);
+        if (content) {
+          content.removeAttribute('hidden');
+        }
+      });
+    });
+
     const form = document.getElementById('mailchimp-form');
     const submitBtn = document.getElementById('subscribe-btn');
     const toastContainer = document.querySelector('.toast-container');
