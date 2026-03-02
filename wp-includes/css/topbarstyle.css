@@ -5,18 +5,21 @@ body {
 
 /* Top Bar Styles */
 .top-bar {
-background-color: #f0f0f0; /* Light gray background */
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #f0f0f0; /* Light gray background */
   padding: 10px 20px;
-  text-align: right; 
   position: sticky; /* Add this to make the top bar sticky */
   top: 0; /* Stick the top bar to the top of the viewport */
   z-index: 100; /* Ensure the top bar is above other elements */
 }
 
 .social-icons {
-  display: inline-block;
-  margin-left: auto;
-  padding-right: 50px
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding-right: 50px;
 }
 
 .social-icons img {
